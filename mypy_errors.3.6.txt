@@ -1,0 +1,14 @@
+src/access_various_methods_and_properties.py:5: error: Incompatible types in assignment (expression has type "int", variable has type "Optional[str]")
+src/access_various_methods_and_properties.py:7: error: Module has no attribute "does_not_exist"
+src/access_various_methods_and_properties.py:10: error: Argument "idempotency_key" to "create" of "CreateableAPIResource" has incompatible type "int"; expected "Optional[str]"
+src/access_various_methods_and_properties.py:25: error: Incompatible types in assignment (expression has type "bool", variable has type "str")
+src/access_various_methods_and_properties.py:26: error: Incompatible types in assignment (expression has type "ListObject", variable has type "int")
+src/access_various_methods_and_properties.py:27: error: Value of type Self? is not indexable
+src/access_various_methods_and_properties.py:28: error: Self? has no attribute "id"
+src/access_various_methods_and_properties.py:29: error: Value of type Self? is not indexable
+src/access_various_methods_and_properties.py:30: error: Self? has no attribute "does_not_exist"
+src/access_various_methods_and_properties.py:31: error: Self? has no attribute "this_method_does_not_exist"
+src/access_various_methods_and_properties.py:32: error: "Type[Customer]" has no attribute "this_method_does_not_exist"
+src/access_various_methods_and_properties.py:34: error: Missing positional argument "secret" in call to "construct_event" of "Webhook"
+src/access_various_methods_and_properties.py:35: error: Module has no attribute "DoesNotExist"
+Found 13 errors in 1 file (checked 1 source file)

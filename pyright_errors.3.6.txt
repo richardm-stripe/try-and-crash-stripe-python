@@ -1,0 +1,21 @@
+No configuration file found.
+No pyproject.toml file found.
+Assuming Python platform Darwin
+Searching for source files
+Found 1 source file
+/Users/richardm/testbed/python-test-stripe-imports/src/access_various_methods_and_properties.py
+  /Users/richardm/testbed/python-test-stripe-imports/src/access_various_methods_and_properties.py:7:8 - error: "does_not_exist" is not a known member of module (reportGeneralTypeIssues)
+  /Users/richardm/testbed/python-test-stripe-imports/src/access_various_methods_and_properties.py:10:46 - error: Argument of type "Literal[4]" cannot be assigned to parameter "idempotency_key" of type "str | None" in function "create"
+    Type "Literal[4]" cannot be assigned to type "str | None"
+      "Literal[4]" is incompatible with "str"
+      Type cannot be assigned to type "None" (reportGeneralTypeIssues)
+  /Users/richardm/testbed/python-test-stripe-imports/src/access_various_methods_and_properties.py:25:13 - error: Expression of type "bool" cannot be assigned to declared type "str"
+    "bool" is incompatible with "str" (reportGeneralTypeIssues)
+  /Users/richardm/testbed/python-test-stripe-imports/src/access_various_methods_and_properties.py:26:13 - error: Expression of type "ListObject" cannot be assigned to declared type "int"
+    "ListObject" is incompatible with "int" (reportGeneralTypeIssues)
+  /Users/richardm/testbed/python-test-stripe-imports/src/access_various_methods_and_properties.py:32:17 - error: Cannot access member "this_method_does_not_exist" for type "Type[Customer]"
+    Member "this_method_does_not_exist" is unknown (reportGeneralTypeIssues)
+  /Users/richardm/testbed/python-test-stripe-imports/src/access_various_methods_and_properties.py:34:1 - error: Argument missing for parameter "secret" (reportGeneralTypeIssues)
+  /Users/richardm/testbed/python-test-stripe-imports/src/access_various_methods_and_properties.py:35:8 - error: "DoesNotExist" is not a known member of module (reportGeneralTypeIssues)
+7 errors, 0 warnings, 0 informations 
+Completed in 0.465sec
